@@ -1,0 +1,82 @@
+body{background-image: url(fondo2.jpg);}
+
+/* BARRA DE LA PAGINA, LOGO Y SALIR ............................................*/
+
+.img{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10% 0%;
+}
+.titulo{margin: -28% 0% 0% 39%;}
+.sub{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(209, 213, 219);
+    margin: -17% 20% 0% 31%;
+}
+
+.salir{
+    margin-left: -110%;
+    margin-top: -1%;
+    color: cornflowerblue;
+}
+
+/*------------------------------------------DILIGENCIAR SU PAGO-------------------------------------------------------*/
+
+input{
+    padding: 10px 40% ;
+    padding-right: 100px;
+    padding-left: 10% ;
+    border-radius: 20px 0 0 5px;
+    padding-top: 4% 1%;
+    font-size: larger;
+    border: 1px solid silver;
+    border-radius: 30px;
+    border-color: rgb(93, 9, 133);
+    text-align: center;
+}
+
+.container1{margin-left: 10%;margin-top: 15%;}
+.container2{margin-left: 10%;margin-top: 3%;}
+.container3{margin-left: 10%;margin-top: 3%;}
+.container4{margin-left: 10%;margin-top: 3%;}
+
+.envio{
+    margin-top: -13%;
+    margin-left: 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.envio2:hover{transform: scale(1.20); transition: .5s;}
+.envio2:hover{color: rgb(196, 112, 43);}
+button{border-radius: 30px; color: blue;}
+
+.pago{
+    margin-top: -25%;
+    margin-left: 22%;
+}
+
+/*---------------------------------------------------------------BOTNES HACIA PERFIL, ETC-----------------------------*/
+
+.a{
+    margin-top: -14%;
+    margin-left: 60%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.a1{ margin-left: 30.8%;}
+.a1:hover{transform: scale(1.20); transition: .5s;}
+
+.b1{
+    margin-top: 4%;
+    margin-left: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.b1:hover{transform: scale(1.20); transition: .5s;}
+
+.c1{
+    margin-top: 4%;
+    margin-left: 26.5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.c1:hover{transform: scale(1.20); transition: .5s;}

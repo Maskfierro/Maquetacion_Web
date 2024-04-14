@@ -1,0 +1,96 @@
+body{background-image: url(fondo2.jpg);}
+
+/* BARRA DE LA PAGINA, LOGO Y SALIR ............................................*/
+
+.img{
+    height: 110px;
+    background-color:rgb(148, 67, 196);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:-1% 0%;
+}
+.titulo{margin: 0% 0% 0% -2%;}
+.sub{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+    margin: -3% 20% 0% 31%;
+}
+.salir{margin-top: 20%; margin: -9% 0% 0% -9%;}
+
+.logaut{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cornflowerblue;
+    margin: -1% 20% 0% 95%;
+}
+.log:hover img{transform: scale(1.15);transition: all .5s;}
+
+/*<!---------------------------------------------------MINI SCROLL COMPRAS----------------------------------->*/
+
+p {
+    padding: 23px;
+    margin: 50px 0% -22% 0%;
+    border: thin solid black;
+    background-color: cornflowerblue;;
+    width: 286px;
+    margin-left: 75%;
+    overflow: scroll;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    }
+
+h1{
+    margin-left: 75%;
+    margin-bottom: -4%;
+    background-color:rgb(148, 67, 196);;
+    height: 53px;
+    border-color: rgb(17, 13, 20);
+    border-radius: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h2 {
+    margin: 27% 0% -4% 71%;
+    border-radius: 9px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 75%;
+    }
+i {
+    padding: 10px;
+    margin: 50px 0% -21% 0%;
+    border: thin solid black;
+    background-color: cornflowerblue;
+    width: 286px;
+    margin-left: 77%;
+    overflow: scroll;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    }
+
+/*<!---------------------------------------------------MINI SCROLL COMPRAS----------------------------------->*/
+
+
+.por{margin: -30% 0% 0% 14%;}
+.id{
+    margin: -1% 0% -7% 22%;
+    font-size: 225%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.id2{
+    margin: 2.3% 0% -7% 0%;
+    font-size: 117%;
+    background-color: cornflowerblue;
+    margin-left: 26%;
+    margin-right: 61%;
+    text-align: center;
+}
+
+.id2:hover{color:aqua;}
